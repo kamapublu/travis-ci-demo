@@ -9,7 +9,7 @@ class SampleTest(unittest.TestCase):
     """
 
     def test_add_integers(self):
-        result = add(3, 5)
+        result = add(3, 9)
         self.assertEquals(8, result)
 
     def test_add_strings(self):
